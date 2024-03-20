@@ -37,3 +37,19 @@ print(a and b)
 
 #Los operadores booleanos y de conmparacion con muy utilizados al definir condiciones
 
+#Sentencias de control de codigo: en general un programa se ejecuta linea por linea de manera secuecncial
+#Se puede romper esa secuencialidad empleando un conjunto de sentencias (expresiones) que permite:
+#1. Seleccionar la ejecucion de un bloque de codigo
+#2. Repetir la ejecucion de un bloque de codigo
+#3. Seleccionar entre ejecutar un bloque de codigo u otro bloque de codigo
+#De esa manera podemos "romper" la secuencialidad
+#Principios del paradigma de programacion estructurado
+
+#Sentencia if. si se cumple una condicion (se evalua como True) se ejcuta un bloque de codigo
+
+print("linea 1")
+print("linea 2")
+if 5>8 or 3<7:
+    print("Esto se muestra si la condicion es verdadera")
+else:
+    print("Esto se muestra si la condicion es falsa")
