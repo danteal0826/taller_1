@@ -47,9 +47,12 @@ print(a and b)
 
 #Sentencia if. si se cumple una condicion (se evalua como True) se ejcuta un bloque de codigo
 
-print("linea 1")
-print("linea 2")
-if 5>8 or 3<7:
-    print("Esto se muestra si la condicion es verdadera")
+entrada= int(input("Cuantos años tiene? "))
+
+if entrada<18:
+    print("Es menor de edad.")
 else:
-    print("Esto se muestra si la condicion es falsa")
+    print("Ya es mayor de edad.")
+    
+#Taller, crear un programa que genere un numero aleatorio entre 1 y 12, si el numero es 7 imprimir gano, sino imprimir deje el juego
+
