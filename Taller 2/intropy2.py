@@ -92,4 +92,4 @@ for x in range(-10,10): #Incluye el primer valor, excluye el ultimo
 #Taller crear un programma que pida un numero al usuario y:
 #1. imprima los numeros impares entre -numero y numero
 #2. imprima los numeros primos entre 0 y numero*100
-#El programa debe garantizar que el usuario ingrese un numero potivo >0
+#El programa debe garantizar que el usuario ingrese un numero positivo >0
