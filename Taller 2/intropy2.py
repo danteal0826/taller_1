@@ -10,4 +10,12 @@ while i<10:
     #Importante modificar el valor del contador
     i=i+1 #i+=1<-equivalente; i++ en python no existe
 
-# for
+#Ciclos copntrolados po rel valor de una variable
+import random
+a=0
+
+while a !=5:
+    a=random.randint(1,10)
+    print(a)
+    
+print("Se acabó")
